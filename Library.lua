@@ -1896,7 +1896,7 @@ function _G.Window(text,logo)
 				Addvalue.BorderSizePixel = 0
 				Addvalue.Position = UDim2.new(0.75, 0, 0.15, 0)
 				Addvalue.Size = UDim2.new(0, 15, 0, 15)
-				Addvalue.Image = "http://www.roblox.com/asset/?id=6035067836"
+				Addvalue.Image = "http://www.roblox.com/asset/?id=14176817863"
 				Addvalue.ImageColor3 =  Color3.fromRGB(0, 194, 135)
 
 				local Deletevalue = Instance.new("ImageButton")
