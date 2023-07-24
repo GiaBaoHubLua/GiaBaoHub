@@ -1885,7 +1885,7 @@ function _G.Window(text,logo)
 				DefaultValue.BorderSizePixel = 0
 				DefaultValue.Position = UDim2.new(0.65, 0, 0.15, 0)
 				DefaultValue.Size = UDim2.new(0, 15, 0, 15)
-				DefaultValue.Image = "rbxassetid://7072721335"
+				DefaultValue.Image = "rbxassetid://14176817863"
 				DefaultValue.ImageColor3 =  Color3.fromRGB(255, 255, 255)
 
 				local Addvalue = Instance.new("ImageButton")
