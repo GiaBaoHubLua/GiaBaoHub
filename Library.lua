@@ -1525,7 +1525,7 @@ function _G.Window(text,logo)
 				DropArbt_listimage.Position = UDim2.new(0.934673369, 0, 0.099999994, 0)
 				DropArbt_listimage.Rotation = 90.000
 				DropArbt_listimage.Size = UDim2.new(0, 20, 0, 20)
-				DropArbt_listimage.Image = "rbxassetid://3926305904"
+				DropArbt_listimage.Image = "rbxassetid://14176817863"
 				DropArbt_listimage.ImageRectOffset = Vector2.new(724, 284)
 				DropArbt_listimage.ImageRectSize = Vector2.new(33, 33)
 				DropArbt_listimage.ImageTransparency = 0.500
