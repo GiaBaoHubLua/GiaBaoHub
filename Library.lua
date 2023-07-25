@@ -244,7 +244,7 @@ function _G.Window(text,logo)
 	focusui = false
 
 	if logo == nil then
-		logo = 13575821723
+		logo = 14176817863
 	end
 
 	local MainSceen = Instance.new("Frame")
@@ -286,7 +286,7 @@ function _G.Window(text,logo)
 	NameReal.Position = UDim2.new(0.513530612, 17, 0.0316386409, 0)
 	NameReal.Size = UDim2.new(0.931070328, -14, -0.0002422783, 20)
 	NameReal.Font = Enum.Font.GothamSemibold
-	NameReal.Text = tostring(text)..""
+	NameReal.Text = tostring(text).." - UI By Alchemy"
 	NameReal.TextColor3 = Color3.fromRGB(255, 255, 255)
 	NameReal.TextSize = 15.000
 	NameReal.TextWrapped = true
@@ -312,7 +312,7 @@ function _G.Window(text,logo)
 
 	function AlchemyUIXZui:Notification(text,text2,delays,logo)
 		if logo == nil then
-			logo = "13575821723"
+			logo = "14176817863"
 		end
 		if delays == nil then
 			delays = 1
@@ -673,7 +673,7 @@ function _G.Window(text,logo)
 
 	function AlchemyUIXZtabui:AlchemyUIXZtab(text,logo)
 		if logo == nil then
-			logo = 13575821723
+			logo = 14176817863
 		end
 		PageOrders = PageOrders + 1
 
@@ -1525,7 +1525,7 @@ function _G.Window(text,logo)
 				DropArbt_listimage.Position = UDim2.new(0.934673369, 0, 0.099999994, 0)
 				DropArbt_listimage.Rotation = 90.000
 				DropArbt_listimage.Size = UDim2.new(0, 20, 0, 20)
-				DropArbt_listimage.Image = "rbxassetid://14176817863"
+				DropArbt_listimage.Image = "rbxassetid://3926305904"
 				DropArbt_listimage.ImageRectOffset = Vector2.new(724, 284)
 				DropArbt_listimage.ImageRectSize = Vector2.new(33, 33)
 				DropArbt_listimage.ImageTransparency = 0.500
@@ -1885,7 +1885,7 @@ function _G.Window(text,logo)
 				DefaultValue.BorderSizePixel = 0
 				DefaultValue.Position = UDim2.new(0.65, 0, 0.15, 0)
 				DefaultValue.Size = UDim2.new(0, 15, 0, 15)
-				DefaultValue.Image = "rbxassetid://14176817863"
+				DefaultValue.Image = "rbxassetid://7072721335"
 				DefaultValue.ImageColor3 =  Color3.fromRGB(255, 255, 255)
 
 				local Addvalue = Instance.new("ImageButton")
@@ -1896,7 +1896,7 @@ function _G.Window(text,logo)
 				Addvalue.BorderSizePixel = 0
 				Addvalue.Position = UDim2.new(0.75, 0, 0.15, 0)
 				Addvalue.Size = UDim2.new(0, 15, 0, 15)
-				Addvalue.Image = "http://www.roblox.com/asset/?id=14176817863"
+				Addvalue.Image = "http://www.roblox.com/asset/?id=6035067836"
 				Addvalue.ImageColor3 =  Color3.fromRGB(0, 194, 135)
 
 				local Deletevalue = Instance.new("ImageButton")
