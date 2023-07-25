@@ -9,7 +9,7 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local tween = game:GetService("TweenService")
 local AlchemyUIXZ = Instance.new("ScreenGui")
-AlchemyUIXZ.Name = "AlchemyUIXZ"
+AlchemyUIXZ.Name = ""
 AlchemyUIXZ.Parent = game:GetService("CoreGui").RobloxGui.Modules
 AlchemyUIXZ.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 local function MakeDraggable(topbarobject, object)
@@ -286,7 +286,7 @@ function _G.Window(text,logo)
 	NameReal.Position = UDim2.new(0.513530612, 17, 0.0316386409, 0)
 	NameReal.Size = UDim2.new(0.931070328, -14, -0.0002422783, 20)
 	NameReal.Font = Enum.Font.GothamSemibold
-	NameReal.Text = tostring(text).." - UI By Alchemy"
+	NameReal.Text = tostring(text)..""
 	NameReal.TextColor3 = Color3.fromRGB(255, 255, 255)
 	NameReal.TextSize = 15.000
 	NameReal.TextWrapped = true
